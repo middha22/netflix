@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: rgb(0,0,0);
+   color: rgb(255,255,255); 
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./image/Image1\ 2023-11-20\ at\ 22.11.03_c076efe3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 170px;
+    cursor: pointer;
+}
+
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.content{
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    padding: 10%;
+    color: white;
+    line-height: 2.5rem;
+    text-align: center;
+    font-family: serif;
+}
+
+.content h1{
+    font-size: 3.5rem;
+    line-height: 70px;
+}
+
+.content h3{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-size: 1.5rem;
+}
